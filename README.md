@@ -1,6 +1,7 @@
 # Bossy Business - Employee Hierarchy Management System
 
 ## Description
+![Screenshot 2024-08-17 224133](https://github.com/user-attachments/assets/de881d8d-af13-4f4d-a674-5f7ac239b68e)
 
 Bossy Business is a cloud-hosted application designed to manage EPI-USE Africa's employee hierarchy. This React-based solution provides a comprehensive suite of features for employee data management and organizational structure visualization.
 
@@ -19,24 +20,30 @@ Key Features:
 To install and run the application on your local machine, follow these steps:
 
 1. **Clone the repository:**
-   git clone https://github.com/KeganSpolidoro/Bossy_Business.git
 
-2. **Navigate to the project directory:**
-   cd Bossy_Business
+```git clone https://github.com/KeganSpolidoro/Bossy_Business.git```
 
-3. **Install dependencies:**
-   npm install
+3. **Navigate to the project directory:**
+   
+   ```cd Bossy_Business```
 
-4. **Set up environment variables:**
-   Create a `.env` file in the project root with the following variables:
+5. **Install dependencies:**
+
+   ```npm install```
+
+7. **Set up environment variables:**
+   
+   ```Create a `.env` file in the project root with the following variables:
    REACT_APP_SUPABASE_URL = {your supabase url}
-   REACT_APP_SUPABASE_ANON_KEY = {your supabase anon key}
+   REACT_APP_SUPABASE_ANON_KEY = {your supabase anon key}```
 
-5. **Start the development server:**
-   npm start
+9. **Start the development server:**
+    
+   ```npm start```
 
-6. **Access the application:**
-   Open http://localhost:3000 in your web browser.
+11. **Access the application:**
+    
+  ``` Open http://localhost:3000 in your web browser.```
 
 ## Usage
 
