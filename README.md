@@ -1,8 +1,11 @@
 # Bossy Business - Employee Hierarchy Management System
 
-## Description
-![Screenshot 2024-08-17 224133](https://github.com/user-attachments/assets/de881d8d-af13-4f4d-a674-5f7ac239b68e)
+# VISIT THE APPLICATION NOW
+click on the image to visit the application
+[![Screenshot 2024-08-17 224133](https://github.com/user-attachments/assets/de881d8d-af13-4f4d-a674-5f7ac239b68e)](https://bossy-business.vercel.app/)
 
+# DESCRIPTION
+<br>
 Bossy Business is a cloud-hosted application designed to manage EPI-USE Africa's employee hierarchy. This React-based solution provides a comprehensive suite of features for employee data management and organizational structure visualization.
 
 Key Features:
