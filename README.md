@@ -70,7 +70,7 @@ The application is deployed on [insert cloud platform name] and can be accessed 
 
 For more detailed information:
 
-- User Guide: [Link to user guide document]
+- User Guide: [https://github.com/KeganSpolidoro/Bossy_Business/blob/fff97471f16ba2a672cf5c8b378e4b1ae0edce50/Docs/Bossy_Business%20User%20Manual.pdf]
 
 ## Contact
 
