@@ -264,6 +264,14 @@ export default function Home() {
   };
 
   const deleteEmployee = async (id) => {
+    const isConfirmed = window.confirm(
+      "Are you sure you want to delete this employee?"
+    );
+
+    if (!isConfirmed) {
+      return;
+    }
+
     try {
       const employeeToDelete = employeeList.find((emp) => emp.id === id);
       if (!employeeToDelete) {
@@ -408,14 +416,14 @@ export default function Home() {
               label="Add Employee"
               icon="pi pi-plus"
               onClick={() => showDialog("create")}
-              className="bg-[#6e80aa] w-full h-4 p-4"
+              className="bg-[#6e80aa] w-full rounded-none h-4 p-4"
               iconPos="right"
             />
             <InputText
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Search Employees"
-              className="w-72 border-black border-2"
+              className="w-80 h-8 border-[#6e80aa] rounded-none border-2"
             />
           </div>
         </div>

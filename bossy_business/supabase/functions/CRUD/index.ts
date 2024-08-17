@@ -113,7 +113,7 @@ Deno.serve(async (req) => {
   }
 });
 export const corsHeaders = {
-  "Access-Control-Allow-Origin": "http://localhost:3000",
+  "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
   "Access-Control-Expose-Headers": "Content-Length, X-JSON",
   "Access-Control-Allow-Headers":
